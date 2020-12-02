@@ -20,7 +20,7 @@ function Header () {
       </section>
       <section className='header-bottom'>
         <section className='header-bottom__phone'>
-        719-225-6136
+        +1-719-225-6136
         </section>
         <section className='header-bottom__email'>
         Chrisheibel7@gmail.com
