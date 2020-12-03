@@ -1,0 +1,30 @@
+.home-intro {
+  display: block;
+  width: 30%;
+  margin: 40px auto;
+}
+
+.home-intro-top {
+  font-weight: normal;
+  display: flex;
+
+  text-align: left;
+  margin: 10px 0;
+  width: 30rem;
+}
+
+.home-intro-middle {
+  display: flex;
+
+  text-align: left;
+  margin: 10px 0;
+  width: 30rem;
+}
+
+.home-intro-bottom {
+  display: flex;
+  
+  text-align: left;
+  margin: 10px 0;
+  width: 30rem;
+}

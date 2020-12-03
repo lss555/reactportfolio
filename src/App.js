@@ -2,6 +2,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import './App.css'
 import { Header, Footer, PageTitle } from './components/shared'
+import Home from './components/home'
 
 import './App.css'
 
@@ -12,6 +13,7 @@ function App() {
       <Switch>
         <Route exact path='/'>
         <PageTitle title='Home' />
+        <Home />
         </Route>
         <Route exact path='/about'>
           <PageTitle title='About' />
