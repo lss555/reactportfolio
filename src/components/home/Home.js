@@ -24,6 +24,25 @@ const Home = (props) => {
         <div className='home-projects-gallery-image small ttt'>Tic Tac Toe</div>
       </div>
     </div>
+    <div className='tech'>
+      <h2>Technologies</h2>
+      <ul class="feature-icons">
+				<li class="icon solid fa-laptop">JavaScript</li>
+				<li class="icon solid fa-bolt">HTML/CSS</li>
+				<li class="icon solid fa-signal">React</li>
+				<li class="icon solid fa-cog">Mongoose</li>
+				<li class="icon solid fa-map-marker-alt">MongoDB</li>
+				<li class="icon solid fa-code">Express</li>
+				<li class="icon solid fa-cog">RESTful API's</li>
+				<li class="icon solid fa-map-marker-alt">PostgreSQL</li>
+				<li class="icon solid fa-code">JQuery</li>
+				<li class="icon solid fa-code">Node.js</li>
+				<li class="icon solid fa-code">GitHub</li>
+				<li class="icon solid fa-code">Grunt</li>
+				<li class="icon solid fa-code">Sass</li>
+				<li class="icon solid fa-code">Bootstrap</li>
+			</ul>
+    </div>
   </div>
   )
 

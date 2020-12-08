@@ -1,7 +1,7 @@
 .allprojects-gallery {
   display: grid;
   height: 100%;
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 30px;
   margin: auto 30px;
