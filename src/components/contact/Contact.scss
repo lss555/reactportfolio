@@ -1,0 +1,36 @@
+.contact-profile {
+  display: inline-block;
+  float: center;
+  font-family: RobotoThin;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 80px;
+  margin-top: 0;
+}
+
+.contact-social-media {
+  display: block;
+  float: center;
+}
+
+.contact-image {
+  width: 200px;
+  height: 200px;
+  background-image: url('../photos/profile-image.jpg');
+  background-size: cover;
+  display: flex;
+  background-position: center;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  -webkit-border-top-left-radius: 100px;
+  -moz-border-top-left-radius: 100px;
+  -webkit-border-bottom-right-radius: 100px;
+  -moz-border-bottom-right-radius: 100px;
+  margin-bottom: 2rem;
+}
+
+.contact-name {
+  font-family: RobotoThin;
+}

@@ -6,6 +6,7 @@ import Home from './components/home'
 import AllProjects from './components/allprojects'
 import About from './components/about'
 import Resume from './components/resume'
+import Contact from './components/contact'
 
 import './App.css'
 
@@ -32,6 +33,7 @@ function App() {
         </Route>
         <Route exact path='/contact'>
           <PageTitle title='Contact' />
+          <Contact />
         </Route>
       </Switch>
     <Footer />
