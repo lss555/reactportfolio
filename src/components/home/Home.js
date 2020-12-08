@@ -16,12 +16,12 @@ const Home = (props) => {
 
       <p className='home-intro-bottom'>I'm a software Engineer based out of Denver, CO specializing in building a designing effective, high-quality websites and applications.</p>
     </div>
-    <div className='all-projects-page'>
-      <div className='allprojects-gallery'>
-        <div className='allprojects-gallery-image medium spots'>Spot Locater</div>
-        <div className='allprojects-gallery-image large peaks'>Peaks</div>
-        <div className='allprojects-gallery-image medium dev-spot'>Dev Spot</div>
-        <div className='allprojects-gallery-image small ttt'>Tic Tac Toe</div>
+    <div className='home-projects-page'>
+      <div className='home-projects-gallery'>
+        <div className='home-projects-gallery-image medium spots'>Spot Locater</div>
+        <div className='home-projects-gallery-image large peaks'>Peaks</div>
+        <div className='home-projects-gallery-image medium dev-spot'>Dev Spot</div>
+        <div className='home-projects-gallery-image small ttt'>Tic Tac Toe</div>
       </div>
     </div>
   </div>

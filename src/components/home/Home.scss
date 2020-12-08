@@ -1,13 +1,14 @@
 .home-intro {
   display: block;
   width: 30%;
-  margin: 40px auto;
+  margin: 0 auto;
+  height: 50vh;
+  margin-top: 10vh;
 }
 
 .home-intro-top {
   font-weight: normal;
   display: flex;
-
   text-align: left;
   margin: 10px 0;
   width: 30rem;
@@ -43,7 +44,7 @@
   border: 1px solid black;
 }
 
-.allprojects-gallery {
+.home-projects-gallery {
   display: grid;
   height: 100%;
   grid-template-rows: repeat(12, 1fr);
@@ -53,7 +54,7 @@
   margin-right: 30px;
 }
 
-.allprojects-gallery-image {
+.home-projects-gallery-image {
   color: white;
   font-weight: bold;
   font-size: 2rem;
@@ -71,7 +72,7 @@
   transition: 0.5s ease-in-out;
 }
 
-.allprojects-gallery-image:hover {
+.home-projects-gallery-image:hover {
     transform: scale(1.1);
 }
 
@@ -91,19 +92,19 @@
   background-image: url(../photos/TTT.png);
 }
 
-.allprojects-gallery-image {
+.home-projects-gallery-image {
 
 }
 
-@media only screen and (max-width: 600px) {
-  .allprojects-gallery {
+@media only screen and (max-width: 800px) {
+  .home-projects-gallery {
     display: grid;
     height: 100%;
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 30px;
   }
-  .allprojects-gallery-image {
+  .home-projects-gallery-image {
     margin: auto 10px;
     color: white;
     opacity: 0.8;

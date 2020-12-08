@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import './Footer.css'
 
@@ -31,19 +32,19 @@ function Footer () {
       </section>
       <section className='footer-info-right'>
         <section>
-          Home
+          <Link to='/' className='navbar-item'>Home</Link>
         </section>
         <section>
-          About
+          <Link to='/about' className='navbar-item'>About</Link>
         </section>
         <section>
-          All Projects
+          <Link to='/allprojects' className='navbar-item'>All Projects</Link>
         </section>
         <section>
-          Resume
+          <Link to='/resume' className='navbar-item'>Resume</Link>
         </section>
         <section>
-          Contact
+          <Link to='/contact' className='navbar-item'>Contact</Link>
         </section>
 
       </section>

@@ -13,7 +13,7 @@ function App() {
     <Header />
       <Switch>
         <Route exact path='/'>
-        <PageTitle title='Home' />
+        <PageTitle />
         <Home />
         </Route>
         <Route exact path='/about'>
