@@ -4,6 +4,7 @@ import './App.css'
 import { Header, Footer, PageTitle } from './components/shared'
 import Home from './components/home'
 import AllProjects from './components/allprojects'
+import About from './components/about'
 
 import './App.css'
 
@@ -17,7 +18,8 @@ function App() {
         <Home />
         </Route>
         <Route exact path='/about'>
-          <PageTitle title='About' />
+          <PageTitle />
+          <About />
         </Route>
         <Route exact path='/allprojects'>
           <PageTitle title='All Projects' />

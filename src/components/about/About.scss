@@ -1,0 +1,44 @@
+.about-profile {
+  display: grid;
+  float: left;
+  margin: 0 5%;
+  font-family: RobotoThin;
+  color: black;
+  font-weight: bold;
+}
+
+.about-social-media {
+  display: block;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  background-image: url('../photos/profile-image.jpg');
+  background-size: cover;
+  display: block;
+  background-position: center;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  -webkit-border-top-left-radius: 100px;
+  -moz-border-top-left-radius: 100px;
+  -webkit-border-bottom-right-radius: 100px;
+  -moz-border-bottom-right-radius: 100px;
+  margin-bottom: 2rem;
+}
+
+.profile-name {
+  font-family: RobotoThin;
+}
+
+.about-text {
+  max-width: 600px;
+  float: right;
+  margin-right: 5%;
+}
+
+@media only screen and (max-width: 800px) {
+
+}
