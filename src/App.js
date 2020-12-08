@@ -5,6 +5,8 @@ import { Header, Footer, PageTitle } from './components/shared'
 import Home from './components/home'
 import AllProjects from './components/allprojects'
 import About from './components/about'
+import Resume from './components/resume'
+// import PDFViewer from './components/pdfviewer'
 
 import './App.css'
 
@@ -27,6 +29,7 @@ function App() {
         </Route>
         <Route exact path='/resume'>
           <PageTitle title='Resume' />
+          <Resume />
         </Route>
         <Route exact path='/contact'>
           <PageTitle title='Contact' />

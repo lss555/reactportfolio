@@ -5,6 +5,8 @@
   font-family: RobotoThin;
   color: black;
   font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: -40px;
 }
 
 .about-social-media {
@@ -35,10 +37,13 @@
 
 .about-text {
   max-width: 600px;
-  float: right;
-  margin-right: 5%;
+  float: center-right;
+  margin: 0 auto;
+  margin-right: 15%;
+  margin-bottom: 50px;
+  margin-top: 80px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 960px) {
 
 }
