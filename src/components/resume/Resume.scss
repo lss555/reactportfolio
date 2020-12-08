@@ -1,5 +1,37 @@
 .resume-section {
-  background-image: url(../photos/peaks.png);
-  height: 500px;
-  width: 500px;
+  background-image: url(../photos/resume-1.png);
+  font-family: RobotoThin;
+  font-size: xx-large;
+  text-transform: uppercase;
+  margin: 40px 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  grid-template-rows: repeat(21, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-row: span 21;
+  grid-column: span 6;
+  background-image: url(../photos/resume-1.png);
+  width: 70%;
+  margin: 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.5s ease-in-out;
+}
+
+.img-div {
+grid-row: span 12;
+grid-column: span 6;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+
+.download-btn {
+
 }

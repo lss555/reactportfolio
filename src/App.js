@@ -6,7 +6,6 @@ import Home from './components/home'
 import AllProjects from './components/allprojects'
 import About from './components/about'
 import Resume from './components/resume'
-// import PDFViewer from './components/pdfviewer'
 
 import './App.css'
 
