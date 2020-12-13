@@ -33,7 +33,7 @@ const About = (props) => {
       </div>
       <div className='about-text'>
         <h3>About Me</h3>
-        <p>I'm a full stack engineer with a passion to find creative solutions and develop top tier applications. I thrive under pressure and have worked in many different fields from ski lodges to security and demolition. Through those experiences I realized I wanted to make a career that I would be passionate about. I had coded here and there and always enjoyed it and the freedom it gives you to build whatever you want with a little bit of work and creativity. If you're interested feel free to check out my projects. Need a developer on your team? Need something built? Contact me on social media or email me <a href='/contact'>HERE</a>.</p>
+        <p>I'm a full stack engineer with a passion to find creative solutions and develop top tier applications. I thrive under pressure and have worked in many different fields from ski lodges to security and demolition. Through those experiences I realized I wanted to make a career that I would be passionate about. I had coded here and there and always enjoyed it and the freedom it gives you to build whatever you want with a little bit of work and creativity. If you're interested feel free to check out my projects <a href='/allprojects'>here</a>. Need a great developer on your team? Need something built? Contact me on social media or email me <a href='/contact'>here</a>.</p>
       </div>
     </div>
   )

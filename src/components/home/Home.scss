@@ -1,6 +1,8 @@
 .home-intro {
   display: block;
-  width: 30%;
+  justify-content: center;
+  text-align: center;
+  width: 50vh;
   margin: 0 auto;
   height: 50vh;
   margin-top: 10vh;
@@ -101,9 +103,11 @@
   .home-projects-gallery {
     display: grid;
     height: 100%;
+    width: 100vh;
     grid-template-rows: repeat(8, 1fr);
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 30px;
+    margin: 0 auto;
   }
   .home-projects-gallery-image {
     margin: auto 10px;
@@ -122,11 +126,97 @@
 }
 
 .tech {
-  color: black;
-  font-weight: bold;
-  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  padding-top: 20px;
+  font-family: RobotoThin;
 }
 
-ul.feature-icons {
-  
+.header-tech {
+  text-align: center;
+  padding: 1rem;
+  color: black;
+  position: relative;
+}
+
+.header-tech::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 100px;
+  background-color: #2F4A73;
+}
+
+.tech-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+}
+
+.skill-box {
+  padding: 1rem;
+  color: black;
+  cursor: pointer;
+}
+
+.skill-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill-icon {
+  z-index: 2;
+}
+
+.img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 90px;
+}
+
+.skill-title h3 {
+  color: black;
+  margin: 0.5rem;
+}
+
+.skill-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  width: 35px;
+  height: 4px;
+  border-radius: 20px 0 0 2px;
+}
+
+.skill-title:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  width: 35px;
+  height: 4px;
+  border-radius: 20px 0 0 2px;
 }

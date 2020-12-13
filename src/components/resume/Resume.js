@@ -8,13 +8,17 @@ import './Resume.scss'
 const Resume = (props) => {
 
   return (
-    <div className='resume-section'>
-      <div className='img-div'>
+    <div className='resume-page'>
+      <div className='resume-section'>
+        <div className='img-div'>
+        </div>
+        <p></p>
       </div>
-      <p></p>
     </div>
   )
 
 }
+
+// <Button className='download-btn' color='success'>Download</Button>
 
 export default Resume

@@ -4,6 +4,22 @@ import React from 'react'
 // } from 'reactstrap'
 import './Home.scss'
 // import profileimage from '../photos/profile-image.jpg'
+import js from '../photos/js.png'
+import py from '../photos/py.png'
+import html from '../photos/html.png'
+import react from '../photos/react.png'
+import bootstrap from '../photos/bootstrap.png'
+import css from '../photos/css.png'
+import github from '../photos/github.png'
+import grunt from '../photos/grunt.png'
+import jquery from '../photos/jquery.png'
+import mongodb from '../photos/mongodb.png'
+import postgresql from '../photos/postgresql.png'
+import node from '../photos/node.png'
+import restful from '../photos/restful-api.png'
+import sass from '../photos/sass.png'
+import express from '../photos/express.png'
+import mongoose from '../photos/mongoose.png'
 
 const Home = (props) => {
 
@@ -25,23 +41,140 @@ const Home = (props) => {
       </div>
     </div>
     <div className='tech'>
-      <h2>Technologies</h2>
-      <ul class="feature-icons">
-				<li class="icon solid fa-laptop">JavaScript</li>
-				<li class="icon solid fa-bolt">HTML/CSS</li>
-				<li class="icon solid fa-signal">React</li>
-				<li class="icon solid fa-cog">Mongoose</li>
-				<li class="icon solid fa-map-marker-alt">MongoDB</li>
-				<li class="icon solid fa-code">Express</li>
-				<li class="icon solid fa-cog">RESTful API's</li>
-				<li class="icon solid fa-map-marker-alt">PostgreSQL</li>
-				<li class="icon solid fa-code">JQuery</li>
-				<li class="icon solid fa-code">Node.js</li>
-				<li class="icon solid fa-code">GitHub</li>
-				<li class="icon solid fa-code">Grunt</li>
-				<li class="icon solid fa-code">Sass</li>
-				<li class="icon solid fa-code">Bootstrap</li>
-			</ul>
+      <div className='header-tech'>
+        <h2>Skills</h2>
+      </div>
+      <div className='tech-container'>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={html} alt=''/>
+            </div>
+            <h3>HTML5</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={py} alt=''/>
+            </div>
+            <h3>Python</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={js} alt=''/>
+            </div>
+            <h3>Javascript</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={react} alt=''/>
+            </div>
+            <h3>React</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={postgresql} alt=''/>
+            </div>
+            <h3>PostgreSQL</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={css} alt=''/>
+            </div>
+            <h3>CSS</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={mongodb} alt=''/>
+            </div>
+            <h3>MongoDB</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={restful} alt=''/>
+            </div>
+            <h3>RESTful API's</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={jquery} alt=''/>
+            </div>
+            <h3>JQuery</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={node} alt=''/>
+            </div>
+            <h3>Node.js</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={github} alt=''/>
+            </div>
+            <h3>GitHub</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={sass} alt=''/>
+            </div>
+            <h3>SASS</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={grunt} alt=''/>
+            </div>
+            <h3>Grunt</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={bootstrap} alt=''/>
+            </div>
+            <h3>Bootstrap</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={express} alt=''/>
+            </div>
+            <h3>Express</h3>
+          </div>
+        </div>
+        <div className='skill-box'>
+          <div className='skill-title'>
+            <div className='img'>
+              <img className='skill-icon' src={mongoose} alt=''/>
+            </div>
+            <h3>Mongoose</h3>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
   )
