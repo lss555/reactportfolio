@@ -7,6 +7,7 @@ import AllProjects from './components/allprojects'
 import About from './components/about'
 import Resume from './components/resume'
 import Contact from './components/contact'
+// import Pdf from './Pdf'
 
 import './App.css'
 

@@ -1,39 +1,52 @@
-.resume-section {
-  background-image: url(../photos/resume-1.png);
-  font-family: RobotoThin;
-  font-size: xx-large;
-  text-transform: uppercase;
-  margin: 40px 0;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  grid-template-rows: repeat(21, 1fr);
-  grid-template-columns: repeat(6, 1fr);
-  grid-row: span 21;
-  grid-column: span 6;
-  background-image: url(../photos/resume-1.png);
-  width: 70%;
+.center {
+  position:relative;
   margin: 0 auto;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: 0.5s ease-in-out;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.download-btn {
+  width:200px;
+  height:60px;
+  text-align:center;
+  justify-content: flex-start;
+  cursor:pointer;
+  margin:0 auto;
+  border-radius:10px;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+.download-btn.btn-1 {
+  border:5px solid #2F4A73;
 }
 
-.img-div {
-grid-row: span 12;
-grid-column: span 6;
-display: flex;
-justify-content: center;
-align-items: center;
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
+.download-btn div {
+  width:100%;
+  height:100%;
+  font-size:15px;
+  font-weight:600;
+  text-transform:uppercase;
+  line-height:50px;
+}
+.download-btn.btn-1 .top {
+  background:#2F4A73;
 }
 
+.download-btn .bottom {
+  background:#eee;
+  color:#222;
+}
+.download-btn .top {
+  transition:all 300ms ease-in-out;
+}
+.download-btn:hover .top {
+  margin-top:-50px;
+}
 
-// .download-btn {
-//   display: flex;
-//   justify-content: center;
-//   text-align: center;
-// }
+.top {
+  color: white;
+}
+
+.download-link {
+  text-decoration: none;
+}
