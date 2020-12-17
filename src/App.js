@@ -7,7 +7,8 @@ import AllProjects from './components/allprojects'
 import About from './components/about'
 import Resume from './components/resume'
 import Contact from './components/contact'
-// import Pdf from './Pdf'
+import SpotLocater from './components/projects/spotlocater/SpotLocater'
+import Peaks from './components/projects/peaks/Peaks'
 
 import './App.css'
 
@@ -35,6 +36,14 @@ function App() {
         <Route exact path='/contact'>
           <PageTitle title='Contact' />
           <Contact />
+        </Route>
+        <Route exact path='/spot-locater'>
+        <PageTitle title='Spot Locater'/>
+        <SpotLocater />
+        </Route>
+        <Route exact path='/peaks'>
+        <PageTitle title='Peaks'/>
+        <Peaks />
         </Route>
       </Switch>
     <Footer />
