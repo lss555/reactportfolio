@@ -9,19 +9,19 @@ const Contact = (props) => {
       <section className='contact-social-media'>
         <section className='contact-info-left'>
         <h3 className='contact-name'>Chris Heibel</h3>
-        <section className='about-info__linkedin'>
+        <section className='about-info__linkedin contact-text'>
         <a href='https://www.linkedin.com/in/chrisheibel7/'>LinkedIn</a>
       </section>
-      <section className='about-info__github'>
+      <section className='about-info__github contact-text'>
       <a href='https://github.com/lss555'>GitHub</a>
     </section>
-    <section>
+    <section className='contact-text'>
       ChrisHeibel7@gmail.com
     </section>
-    <section>
+    <section className='contact-text'>
       +1-719-225-6136
     </section>
-    <section>
+    <section className='contact-text'>
       Denver, CO
     </section>
     </section>
