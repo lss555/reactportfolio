@@ -1,0 +1,41 @@
+.devspot-page {
+    display: inline-block;
+    float: center;
+    font-family: RobotoThin;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 80px;
+    margin-top: 0;
+    width: 70%;
+}
+
+.devspot-image {
+  background-image: url('../../photos/Dev-users.png');
+  width: 100%;
+  height: 32rem;
+  background-size: cover;
+  display: flex;
+  background-position: center;
+  margin-bottom: 2rem;
+  background-repeat: no-repeat;
+}
+
+.project-content {
+  padding: 10px 20px;
+  border: 2px solid #2F4A73;
+  border-radius: 25px;
+}
+
+.gh-logo {
+  width: 4rem;
+  height: 4rem;
+  margin: 20px 40px;
+  color: black
+}
+
+.live-logo {
+  width: 4rem;
+  height: 4rem;
+  margin: 20px 40px;
+  color: black;
+}

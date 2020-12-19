@@ -34,10 +34,15 @@ const Home = (props) => {
     </div>
     <div className='home-projects-page'>
       <div className='home-projects-gallery'>
-        <div className='home-projects-gallery-image medium spots'>Spot Locater</div>
-        <div className='home-projects-gallery-image large peaks'>Peaks</div>
-        <div className='home-projects-gallery-image medium dev-spot'>Dev Spot</div>
-        <div className='home-projects-gallery-image small ttt'>Tic Tac Toe</div>
+        <div className='home-projects-gallery-image medium spots'><a href='/spot-locater' className='project-link'>Spot Locater</a></div>
+        <div className='home-projects-gallery-image large peaks'><a href='/peaks' className='project-link'>
+        Peaks</a></div>
+        <div className='home-projects-gallery-image medium dev-spot'><a href='/devspot' className='project-link'>
+        Dev Spot
+        </a></div>
+        <div className='home-projects-gallery-image small ttt'><a href='/ttt' className='project-link'>
+        Tic Tac Toe
+        </a></div>
       </div>
     </div>
     <div className='tech'>

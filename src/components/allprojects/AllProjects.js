@@ -20,10 +20,14 @@ const AllProjects = (props) => {
         Peaks</a>
         </div>
         <div className='allprojects-gallery-image medium dev-spot'>
+        <a href='/devspot' className='project-link'>
         Dev Spot
+        </a>
         </div>
         <div className='allprojects-gallery-image small ttt'>
+        <a href='/ttt' className='project-link'>
         Tic Tac Toe
+        </a>
         </div>
       </div>
     </div>

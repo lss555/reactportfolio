@@ -9,6 +9,8 @@ import Resume from './components/resume'
 import Contact from './components/contact'
 import SpotLocater from './components/projects/spotlocater/SpotLocater'
 import Peaks from './components/projects/peaks/Peaks'
+import DevSpot from './components/projects/devspot/DevSpot'
+import TTT from './components/projects/ttt/TTT'
 
 import './App.css'
 
@@ -44,6 +46,14 @@ function App() {
         <Route exact path='/peaks'>
         <PageTitle title='Peaks'/>
         <Peaks />
+        </Route>
+        <Route exact path='/devspot'>
+        <PageTitle title='Dev Spot'/>
+        <DevSpot />
+        </Route>
+        <Route exact path='/ttt'>
+        <PageTitle title='Tic Tac Toe'/>
+        <TTT />
         </Route>
       </Switch>
     <Footer />
