@@ -50,3 +50,21 @@
 .download-link {
   text-decoration: none;
 }
+
+.resume-img {
+  width: 80vh;
+  height: auto;
+  transition: transform .2s;
+}
+
+.resume-img:hover {
+  transform: scale(1.1);
+}
+
+.resume-img:hover ~ .resume-div {
+  margin: 150px auto;
+}
+
+.resume-div {
+  margin: 40px auto;
+}
