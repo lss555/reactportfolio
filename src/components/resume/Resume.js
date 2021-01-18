@@ -1,8 +1,8 @@
 
 import './Resume.scss'
 import React from 'react';
-import pdf from '../photos/resume.pdf'
-import resume from '../photos/resume-1.png'
+import pdf from '../photos/resume1.pdf'
+import resume from '../photos/resume1.png'
 // import SinglePagePDFViewer from "../pdf/single-page"
 // <SinglePagePDFViewer className='single-page-resume' pdf={pdf} />
 function Resume() {
