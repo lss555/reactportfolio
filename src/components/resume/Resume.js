@@ -1,8 +1,7 @@
-
-import './Resume.scss'
+import './Resume.scss';
 import React from 'react';
-import pdf from '../photos/resume1.pdf'
-import resume from '../photos/resume1.png'
+import pdf from '../photos/Chris-Heibel-resume.pdf';
+import resume from '../photos/Chris-Heibel-resume.png';
 // import SinglePagePDFViewer from "../pdf/single-page"
 // <SinglePagePDFViewer className='single-page-resume' pdf={pdf} />
 function Resume() {
@@ -15,7 +14,7 @@ function Resume() {
           <div className="center">
             <div className="download-btn btn-1">
             <a href='./resume.pdf' download="Chris-Heibel-resume" className='download-link'>
-              <div  className="top">
+              <div className="top">
                  Download
               </div>
             </a>
