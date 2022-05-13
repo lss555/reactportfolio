@@ -23,7 +23,7 @@ function Header () {
 
         </section>
         <section className='header-bottom__email'>
-        Chrisheibel7@gmail.com
+        Chrisheibeldev@gmail.com
         </section>
       </section>
     </section>

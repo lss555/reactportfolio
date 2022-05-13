@@ -17,10 +17,10 @@ function Footer () {
     <a href='https://github.com/lss555'>GitHub</a>
   </section>
   <section>
-    ChrisHeibel7@gmail.com
+    ChrisHeibeldev@gmail.com
   </section>
   <section>
-    +1-719-225-6136
+    (720) 813-3248
   </section>
   <section>
     Denver, CO

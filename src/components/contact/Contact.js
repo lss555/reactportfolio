@@ -16,10 +16,10 @@ const Contact = (props) => {
       <a href='https://github.com/lss555'>GitHub</a>
     </section>
     <section className='contact-text'>
-      ChrisHeibel7@gmail.com
+      ChrisHeibeldev@gmail.com
     </section>
     <section className='contact-text'>
-      +1-719-225-6136
+      (720) 813-3248
     </section>
     <section className='contact-text'>
       Denver, CO
