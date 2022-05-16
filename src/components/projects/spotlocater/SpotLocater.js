@@ -20,4 +20,4 @@ const SpotLocater = (props) => {
 
 }
 
-export default SpotLocater
+export default SpotLocater;

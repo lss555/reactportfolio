@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Navbar } from '../../shared'
 import './Header.css'
 import eleLogo from '../../shared/eleLogo.png'
+import SideBar from '../sidebar'
 
 function Header () {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
 
   return (
     <section className='header'>
@@ -13,7 +19,8 @@ function Header () {
         </section>
         <section className='header-top__navbar'>
           <section className='header-top__navigation'>
-            <Navbar />
+            <Navbar toggle={toggle}/>
+            <SideBar isOpen={isOpen} toggle={toggle}/>
           </section>
           <hr className='header-top__seperator' />
         </section>

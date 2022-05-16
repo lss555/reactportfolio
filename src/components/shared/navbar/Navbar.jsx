@@ -1,18 +1,24 @@
 import React from 'react'
-import './Navbar.css'
-import { Link } from 'react-router-dom'
-function Navbar () {
+import { NavbarContainer, NavbarItem, MobileIcon } from './Navbar.styles.jsx'
+import { FaBars } from 'react-icons/fa'
+
+
+function Navbar ({ toggle }) {
 
   return (
-    <section className='navbar'>
-    <Link to='/' className='navbar-item'>Home</Link>
-    <Link to='/about' className='navbar-item'>About</Link>
-    <Link to='/allprojects' className='navbar-item'>All Projects</Link>
-    <Link to='/resume' className='navbar-item'>Resume</Link>
-    <Link to='/contact' className='navbar-item'>Contact</Link>
-    </section>
+    <NavbarContainer>
+      <MobileIcon onClick={toggle}>
+        <FaBars />
+      </MobileIcon>
+        <NavbarItem to='/'>Home</NavbarItem >
+        <NavbarItem  to='/about'>About</NavbarItem>
+        <NavbarItem  to='/allprojects'>All Projects</NavbarItem >
+        <NavbarItem  to='/resume'>Resume</NavbarItem >
+        <NavbarItem  to='/contact'>Contact</NavbarItem >
+    </NavbarContainer>
   )
-
 }
 
-export default Navbar
+// display: ${hamburgerOpen ? 'inline' : 'none'};
+
+export default Navbar;

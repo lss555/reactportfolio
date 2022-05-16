@@ -30,7 +30,7 @@ const Home = (props) => {
 
       <h1 className='home-intro-middle'>Chris</h1>
 
-      <p className='home-intro-bottom'>I'm a software Engineer based out of Denver, CO specializing in building and designing effective, high-quality websites and applications.</p>
+      <p className='home-intro-bottom'>I'm a software developer based out of Denver, CO specializing in building and designing effective, high-quality websites and applications.</p>
     </div>
     <div className='home-projects-page'>
       <div className='home-projects-gallery'>
